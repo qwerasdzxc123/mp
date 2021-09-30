@@ -3,7 +3,6 @@ package com.wj.mp;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.wj.mp.mapper.UserMapper;
 import com.wj.mp.pojo.User;
-import net.minidev.json.JSONUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -138,5 +137,6 @@ class MpApplicationTests {
         map.put("name","Jack");
         userMapper.deleteByMap(map);
     }
+
 
 }
